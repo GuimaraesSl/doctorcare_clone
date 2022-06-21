@@ -44,9 +44,9 @@ function activateMenuAtCurrentSection(section){
 
 function showNavOnScrool(){
   if(scrollY > 0){
-    navigation.classList.add("scroll")  /*Quando fizer o scroll colocar essa classe no nav*/
+    document.getElementById("navigation").classList.add("scroll")  /*Quando fizer o scroll colocar essa classe no nav*/
   } else {
-    navigation.classList.remove("scroll")
+    document.getElementById("navigation").classList.remove("scroll")
   }
 }
 
